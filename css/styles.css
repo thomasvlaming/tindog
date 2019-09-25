@@ -78,7 +78,6 @@ p.details {
 /* Testimonials */
 #testimonials {
   background-color: #ef8172;
-  padding: 7% 15%;
   text-align: center;
   color: #fff;
 }
@@ -88,6 +87,10 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .testimonialimage {
