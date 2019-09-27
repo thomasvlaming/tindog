@@ -5,6 +5,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  position: relative;
 }
 
 .titletext {
@@ -15,7 +16,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 10%;
+  padding: 3% 10% 10%;
 }
 
 /* Navigation bar */
@@ -38,6 +39,14 @@ body {
   padding: 0 18px;
 }
 
+/* Feature section */
+#features {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  padding: 7% 15%;
+}
+
 /* Download button */
 .download-button {
   margin: 5% 3% 5% 0%
@@ -45,15 +54,17 @@ body {
 
 /* title image */
 .iphonemockup {
-  transform: rotate(25deg);
-  width: 60%;
+  transform: rotate(20deg);
+  width: 50%;
+  z-index: 0;
+  right: 30%;
+  position: absolute;
 }
 
 /* icons */
 .fa-check-circle, .fa-bullseye, .fa-heart {
   color: #ef8172;
-  margin-top: 4rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover {
@@ -63,7 +74,7 @@ body {
 /* text in feature block */
 .featureblock {
   text-align: center;
-  padding: 8%;
+  padding: 3% 7%
 }
 
 h3.details {
