@@ -138,12 +138,17 @@ p {
 /* Call To Action (cta) Section:  */
 /* Footer Section:  */
 .footicon {
-  margin: 3% 1%;
+  margin: 2% 1%;
+  font-size: 1.2rem;
 }
 
 .back-home-text {
   margin-bottom: 0px;
   font-size: 1rem;
+}
+
+#footer .container-fluid {
+  padding: 2%;
 }
 
 /* Media Queries:  */
@@ -153,7 +158,7 @@ p {
     transform: rotate(0);
   }
 
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 }
